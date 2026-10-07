@@ -1,0 +1,6 @@
+priority_harm: "Falsos negativos y falsos positivos con el mismo peso (decisión de la estudiante): no detectar un caso que necesitaba revisión y señalar sin necesidad a una comunidad."
+primary_metric: "Brechas de recall y de FPR entre grupos (igualdad de oportunidades y de errores), junto con el recall mínimo por grupo."
+tolerance: "Puertas de governance.yml: recall >= 0.68, brecha de recall <= 0.16 y brecha de FPR <= 0.16; se evaluaron además el recall mínimo por grupo (C2) y que el IC 95 % quede dentro de la tolerancia (C3)."
+evidence: "M0 cumple solo las puertas globales (C1); el recall de G1 es 0.653. Ninguna estrategia determinista y sin uso del grupo al decidir cumple C2, y ninguna cumple C3 (IC de la brecha de recall hasta 0.30)."
+limitation: "Datos sintéticos, 160 casos de prueba, celdas interseccionales de 8 a 35 casos y deriva temporal; la mitigación usa el grupo protegido durante el entrenamiento."
+recommendation: "MODIFICAR + LIMITAR: adoptar M4d (paridad de recall, determinista) solo en un piloto que ordena la cola de revisión, con revisión humana de todos los casos, monitoreo mensual por grupo y condiciones de retiro; no desplegar de forma general."

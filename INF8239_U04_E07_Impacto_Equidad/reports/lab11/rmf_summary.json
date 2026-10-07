@@ -1,0 +1,26 @@
+{
+  "GOVERN": "Responsable, RACI y usos prohibidos (student_inputs/raci.csv, configs/governance.yml)",
+  "MAP": "Finalidad, partes interesadas y 8 riesgos documentados",
+  "MEASURE": "Auditoría global, por grupo e interseccional con intervalos (reports/lab12)",
+  "MANAGE": "Mitigación, condiciones de retiro y apelación (lab11_impact.yml, decision_proposal.json)",
+  "risks_by_function": {
+    "GOVERN / MANAGE": [
+      "R08"
+    ],
+    "GOVERN / MAP": [
+      "R04"
+    ],
+    "MAP / MEASURE": [
+      "R03"
+    ],
+    "MEASURE": [
+      "R07",
+      "R05"
+    ],
+    "MEASURE / MANAGE": [
+      "R02",
+      "R01",
+      "R06"
+    ]
+  }
+}

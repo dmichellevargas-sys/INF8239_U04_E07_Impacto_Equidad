@@ -1,0 +1,5 @@
+stakeholder,benefit,harm,power,participation
+Affected person,Revisión más temprana de casos con riesgo real,Quedar sin revisión (falso negativo) o ser señalado sin necesidad (falso positivo y estigma),low,Consulta con representantes comunitarios y canal de apelación
+Operator,Cola ordenada y menos tiempo de triage,Sesgo de automatización y sobrecarga si aumentan los falsos positivos,medium,Prueba piloto y retroalimentación quincenal sobre la utilidad de la lista
+Institutional owner,Uso más eficiente de recursos de revisión con trazabilidad,Daño reputacional y legal si el sistema discrimina o se usa fuera de alcance,high,Aprueba la decisión GO/REVIEW/STOP y los recursos de monitoreo
+Data team,Evidencia reproducible para mejorar el modelo,Responsabilidad por errores técnicos o métricas mal interpretadas,medium,Mantiene pruebas y reportes y presenta la auditoría a las demás partes

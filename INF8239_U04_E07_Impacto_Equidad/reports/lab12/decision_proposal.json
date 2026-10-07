@@ -1,0 +1,15 @@
+{
+  "gates": {
+    "min_recall": 0.68,
+    "max_recall_gap": 0.16,
+    "max_fpr_gap": 0.16,
+    "max_latency_ms": 500,
+    "max_model_kb": 1024
+  },
+  "global_threshold": 0.63,
+  "m4_unstable_share": 0.2,
+  "decision": "MODIFICAR + LIMITAR",
+  "strategy": "M4d Reducción: paridad de recall (determinista)",
+  "criterion_met": "C1_puertas_oficiales",
+  "nota": "Propuesta generada por regla explícita; requiere ratificación de la persona responsable."
+}
